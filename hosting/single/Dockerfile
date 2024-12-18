@@ -96,7 +96,7 @@ COPY --from=build /app/packages/server /app
 COPY --from=build /app/packages/worker /worker
 
 
-EXPOSE 80
+EXPOSE 28089
 EXPOSE 443
 # Expose port 2222 for SSH on Azure App Service build
 EXPOSE 2222
